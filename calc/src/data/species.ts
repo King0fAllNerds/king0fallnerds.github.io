@@ -3839,7 +3839,7 @@ const ROMHACK_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     abilities: {0: 'Torrent'},
   },
   Blastoise: {
-    types: ['Water', 'Steel'],
+    types: ['Water'],
     bs: {hp: 79, at: 83, df: 100, sa: 85, sd: 105, sp: 78},
     weightkg: 85.5,
     abilities: {0: 'Torrent'},
@@ -3887,13 +3887,13 @@ const ROMHACK_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     abilities: {0: 'Torrent'},
   },
   Dewott: {
-    types: ['Water', 'Fighting'],
+    types: ['Water'],
     bs: {hp: 75, at: 75, df: 60, sa: 83, sd: 60, sp: 60},
     weightkg: 24.5,
     abilities: {0: 'Torrent'},
   },
   Samurott: {
-    types: ['Water', 'Fighting'],
+    types: ['Water'],
     bs: {hp: 95, at: 100, df: 85, sa: 108, sd: 70, sp: 70},
     weightkg: 94.6,
     abilities: {0: 'Torrent'},
@@ -4367,7 +4367,7 @@ const ROMHACK_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     abilities: {0: 'Insomnia'},
   },
   Hypno: {
-    types: ['Psychic', 'Fighting'],
+    types: ['Psychic'],
     bs: {hp: 85, at: 73, df: 70, sa: 73, sd: 115, sp: 67},
     weightkg: 75.6,
     abilities: {0: 'Insomnia'},
@@ -6581,7 +6581,7 @@ const ROMHACK_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     abilities: {0: 'Chlorophyll'},
   },
   Electivire: {
-    types: ['Electric', 'Fighting'],
+    types: ['Electric'],
     bs: {hp: 75, at: 123, df: 67, sa: 95, sd: 85, sp: 95},
     weightkg: 138.6,
     abilities: {0: 'Static'},
@@ -6599,7 +6599,7 @@ const ROMHACK_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     abilities: {0: 'Huge Power'},
   },
   Yanmega: {
-    types: ['Bug', 'Dragon'],
+    types: ['Bug', 'Flying'],
     bs: {hp: 86, at: 76, df: 86, sa: 116, sd: 56, sp: 95},
     weightkg: 51.5,
     abilities: {0: 'Speed Boost'},

@@ -1472,6 +1472,159 @@ const ROMHACK_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     category: 'Status', 
     type: 'Steel',
   },
+  'Bullet Seed': {
+    bp: 25,
+  },
+  Covet: {
+    bp: 60,
+  },
+  'Drain Punch': {
+    bp: 75,
+  },
+  Feint: {
+    bp: 30,
+  },
+  'Fire Spin': {
+    bp: 35,
+  },
+  'Fury Cutter': {
+    bp: 40,
+  },
+  'Future Sight': {
+    bp: 120,
+  },
+  'Giga Drain': {
+    bp: 75,
+  },
+  'High Jump Kick': {
+    bp: 130,
+  },
+  'Icicle Spear': {
+    bp: 25,
+  },
+  'Jump Kick': {
+    bp: 100,
+  },
+  'Last Resort': {
+    bp: 140,
+  },
+  'Petal Dance': {
+    bp: 120,
+  },
+  'Sand Tomb': {
+    bp: 35,
+  },
+  Tackle: {
+    bp: 40,
+  },
+  Thrash: {
+    bp: 120,
+  },
+  Uproar: {
+    bp: 90,
+  },
+  Whirlpool: {
+    bp: 35,
+  },
+  'Air Cutter': {
+    bp: 60,
+  },
+  Assurance: {
+    bp: 60,
+  },
+  'Aura Sphere': {
+    bp: 80,
+  },
+  Blizzard: {
+    bp: 110,
+  },
+  Chatter: {
+    bp: 65,
+  },
+  Crabhammer: {
+    bp: 100,
+  },
+  'Draco Meteor': {
+    bp: 130,
+  },
+	'Dragon Pulse': {
+    bp: 85,
+  },
+	'Energy Ball': {
+    bp: 90,
+  },
+	'Fire Blast': {
+    bp: 110,
+  },
+	Flamethrower: {
+    bp: 90,
+  },
+	'Heat Wave': {
+    bp: 95,
+  },
+	'Hydro Pump': {
+    bp: 110,
+  },
+	'Ice Beam': {
+    bp: 90,
+  },
+	'Knock Off': {
+    bp: 65,
+  },
+	'Leaf Storm': {
+    bp: 130,
+  },
+	Lick: {
+    bp: 30,
+  },
+	'Meteor Mash': {
+    bp: 90,
+  },
+	Overheat: {
+    bp: 130,
+  },
+	'Pin Missile': {
+    bp: 25,
+  },
+	'Power Gem': {
+    bp: 80,
+  },
+	'Rock Tomb': {
+    bp: 60,
+  },
+	'Skull Bash': {
+    bp: 130,
+  },
+	Smog: {
+    bp: 30,
+  },
+	Surf: {
+    bp: 90,
+  },
+	Thief: {
+    bp: 60,
+  },
+	Thunder: {
+    bp: 110,
+  },
+	Thunderbolt: {
+    bp: 90,
+  },
+	'Vine Whip': {
+    bp: 45,
+  },
+	'Wake-up Slap': {
+    bp: 70,
+  },
+	'Leech Life': {
+    bp: 80,
+  },
+	'Sucker Punch': {
+    bp: 70,
+  },
+	'Rapid Spin': {
+    bp: 50,
+  },
 }
 
 const DPP: {[name: string]: MoveData} = extend(true, {}, ADV, DPP_PATCH, ROMHACK_PATCH);
