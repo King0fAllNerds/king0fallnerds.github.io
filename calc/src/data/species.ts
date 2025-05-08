@@ -6750,7 +6750,7 @@ const ROMHACK_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
 };
 
-const DPP: {[name: string]: SpeciesData} = extend(true, {}, ADV, DPP_PATCH, ROMHACK_PATCH);
+const DPP: {[name: string]: SpeciesData} = extend(true, {}, ROMHACK_PATCH);
 
 const BW_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   'Rotom-Fan': {types: ['Electric', 'Flying']},
