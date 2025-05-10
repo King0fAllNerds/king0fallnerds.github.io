@@ -58,7 +58,7 @@ const RBY: {[name: string]: MoveData} = {
   Bubble: {bp: 20, type: 'Water'},
   'Bubble Beam': {bp: 65, type: 'Water'},
   Clamp: {bp: 35, type: 'Water'},
-  'Comet Punch': {bp: 25, type: 'Normal', multihit: [2, 5]},
+  'Comet Punch': {bp: 25, type: 'Fighting', multihit: [2, 5]},
   Constrict: {bp: 10, type: 'Normal'},
   Conversion: {bp: 0, category: 'Status', type: 'Normal'},
   Counter: {bp: 1, type: 'Fighting'},
